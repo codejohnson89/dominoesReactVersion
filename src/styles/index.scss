@@ -1,0 +1,55 @@
+
+body {
+    background-color: #111;
+    background: url(../images/bkgrd.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.team {
+    min-width: 280px;
+}
+
+.team {
+    border-right: 1px solid #333;
+}
+
+.score {
+    font-size: 6.5em;
+    text-align: center;
+}
+
+button {
+    min-width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover,
+button:focus {
+    background-color: #fff;
+    color: #000;
+    border: 0 solid #000;
+}
+
+.scoreBtn {
+    margin-bottom: 150px;
+}
+
+.main-content {
+    border: 0 solid #333;
+    background-color: rgba(333, 333, 333, .8);
+}
+
+.header {
+    color: #fff;
+}
+
+.modal-content {
+    width: 750px;
+}
