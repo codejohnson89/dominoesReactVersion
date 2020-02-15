@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 
 import Player from './components/Player'
 
@@ -129,51 +128,51 @@ export default class App extends React.Component {
                 key={1} 
                 name="Player 1"
                 score={this.state.score[0]} 
-                scoreFive={this.state.score[0]} scoreFive={() => this.scoreFive(0)} 
-                scoreTen={this.state.score[0]} scoreTen={() => this.scoreTen(0)} 
-                scoreFifteen={this.state.score[0]} scoreFifteen={() => this.scoreFifteen(0)} 
-                scoreTwenty={this.state.score[0]} scoreTwenty={() => this.scoreTwenty(0)} 
-                scoreTwentyFive={this.state.score[0]} scoreTwentyFive={() => this.scoreTwentyFive(0)} 
-                scoreThirty={this.state.score[0]} scoreThirty={() => this.scoreThirty(0)} 
-                scoreThirtyFive={this.state.score[0]} scoreThirtyFive={() => this.scoreThirtyFive(0)}
+                scoreFive={() => this.scoreFive(0)} 
+                scoreTen={() => this.scoreTen(0)} 
+                scoreFifteen={() => this.scoreFifteen(0)} 
+                scoreTwenty={() => this.scoreTwenty(0)} 
+                scoreTwentyFive={() => this.scoreTwentyFive(0)} 
+                scoreThirty={() => this.scoreThirty(0)} 
+                scoreThirtyFive={() => this.scoreThirtyFive(0)}
                 />
                 <Player 
                 key={2} 
                 name="Player 2"
                 score={this.state.score[1]}  
-                scoreFive={this.state.score[1]} scoreFive={() => this.scoreFive(1)} 
-                scoreTen={this.state.score[1]} scoreTen={() => this.scoreTen(1)} 
-                scoreFifteen={this.state.score[1]} scoreFifteen={() => this.scoreFifteen(1)} 
-                scoreTwenty={this.state.score[1]} scoreTwenty={() => this.scoreTwenty(1)} 
-                scoreTwentyFive={this.state.score[1]} scoreTwentyFive={() => this.scoreTwentyFive(1)} 
-                scoreThirty={this.state.score[1]} scoreThirty={() => this.scoreThirty(1)} 
-                scoreThirtyFive={this.state.score[1]} scoreThirtyFive={() => this.scoreThirtyFive(1)}
+                scoreFive={() => this.scoreFive(1)} 
+                scoreTen={() => this.scoreTen(1)} 
+                scoreFifteen={() => this.scoreFifteen(1)} 
+                scoreTwenty={() => this.scoreTwenty(1)} 
+                scoreTwentyFive={() => this.scoreTwentyFive(1)} 
+                scoreThirty={() => this.scoreThirty(1)} 
+                scoreThirtyFive={() => this.scoreThirtyFive(1)}
                 />
 
                 {(this.state.players >= 3) ? <Player 
                     key={3} 
                     name="Player 3"
                     score={this.state.score[2]}  
-                    scoreFive={this.state.score[2]} scoreFive={() => this.scoreFive(2)} 
-                    scoreTen={this.state.score[2]} scoreTen={() => this.scoreTen(2)} 
-                    scoreFifteen={this.state.score[2]} scoreFifteen={() => this.scoreFifteen(2)} 
-                    scoreTwenty={this.state.score[2]} scoreTwenty={() => this.scoreTwenty(2)} 
-                    scoreTwentyFive={this.state.score[2]} scoreTwentyFive={() => this.scoreTwentyFive(2)} 
-                    scoreThirty={this.state.score[2]} scoreThirty={() => this.scoreThirty(2)} 
-                    scoreThirtyFive={this.state.score[2]} scoreThirtyFive={() => this.scoreThirtyFive(2)}
+                    scoreFive={() => this.scoreFive(2)} 
+                    scoreTen={() => this.scoreTen(2)} 
+                    scoreFifteen={() => this.scoreFifteen(2)} 
+                    scoreTwenty={() => this.scoreTwenty(2)} 
+                    scoreTwentyFive={() => this.scoreTwentyFive(2)} 
+                    scoreThirty={() => this.scoreThirty(2)} 
+                    scoreThirtyFive={() => this.scoreThirtyFive(2)}
                     /> : <div></div>}
                 
                 {(this.state.players === 4) ? <Player 
                     key={4} 
                     name="Player 4"
                     score={this.state.score[3]} 
-                    scoreFive={this.state.score[3]} scoreFive={() => this.scoreFive(3)} 
-                    scoreTen={this.state.score[3]} scoreTen={() => this.scoreTen(3)} 
-                    scoreFifteen={this.state.score[3]} scoreFifteen={() => this.scoreFifteen(3)} 
-                    scoreTwenty={this.state.score[3]} scoreTwenty={() => this.scoreTwenty(3)} 
-                    scoreTwentyFive={this.state.score[3]} scoreTwentyFive={() => this.scoreTwentyFive(3)} 
-                    scoreThirty={this.state.score[3]} scoreThirty={() => this.scoreThirty(3)} 
-                    scoreThirtyFive={this.state.score[3]} scoreThirtyFive={() => this.scoreThirtyFive(3)}
+                    scoreFive={() => this.scoreFive(3)} 
+                    scoreTen={() => this.scoreTen(3)} 
+                    scoreFifteen={() => this.scoreFifteen(3)} 
+                    scoreTwenty={() => this.scoreTwenty(3)} 
+                    scoreTwentyFive={() => this.scoreTwentyFive(3)} 
+                    scoreThirty={() => this.scoreThirty(3)} 
+                    scoreThirtyFive={() => this.scoreThirtyFive(3)}
                     /> : <div></div>}
                     
                 </div>
